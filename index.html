@@ -51,13 +51,17 @@
       background: #d2c6b2;
     }
 
+    h6 {
+      margin-bottom: 0px;
+    }
+
     ul {
       padding-left: 19px;
     }
 
     li {
       padding-left: 15px;
-      margin: 10px 0;
+      margin: 5px 0;
     }
 
     .technical .row {
@@ -69,10 +73,16 @@
       font-weight: 700;
     }
 
-    .center-align-gap12 {
+    .center-align-gap8 {
       display: flex;
-      gap: 12px;
+      gap: 8px;
       align-items: center;
+    }
+
+    .flex-col-gap8 {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
     }
 
     .in-class {
@@ -82,8 +92,8 @@
 
     .custom-row {
       display: flex;
-      flex-direction: column;
-      gap: 8px;
+      flex-direction: row;
+      gap: 50px;
     }
   </style>
 
@@ -96,143 +106,58 @@
     <div class="header">
       <h2>Vivek Kumar Maurya</h2>
       <h4>Angular Developer</h4>
-      <!-- <h4>8574998039</h4>
-      <h4>vkmm777@gmail.com</h4> -->
-    </div>
-    <div class="title-bar">
-      <h6 class="text-center">PROFILE SUMMARY</h6>
-    </div>
-    <div class="row profile-snapshot mx-0">
-      <div class="col-4 skill">
-        <h5 class="profile-snapshot-header">SKILL SET</h5>
-        <h6 class="skill-body">Software Developer</h6>
-        <h6 class="skill-body">Requirement Gathering</h6>
-        <h6 class="skill-body">Coding</h6>
-        <h6 class="skill-body">Client Servicing</h6>
-      </div>
-      <div class="col-8 profile">
-        <h5 class="profile-snapshot-header">PROFILE SNAPSHOT</h5>
-        <ul>
-          <li>
-            <h6>
-              5 years of experience working in a corporate environment as a
-              font-end UI/Web developer.
-            </h6>
-          </li>
-          <li>
-            <h6>
-              Experience in design, workflow architecture, development and
-              maintenance of web based applications
-            </h6>
-          </li>
-          <li>
-            <h6>
-              Experience developing highly interactive web application utilizing
-              JavaScript, TypeScript, HTML, CSS, JSON, Angular 2+, Bootstrap,
-              Angular Material and integrating Restful API's.
-            </h6>
-          </li>
-        </ul>
+      <div class="custom-row">
+        <div class="center-align-gap8">
+          <span class="material-symbols-outlined">
+            mail
+          </span>
+          <div>
+            vkmm777@gmail.com
+          </div>
+        </div>
+        <div class="center-align-gap8">
+          <span class="material-symbols-outlined">
+            smartphone
+          </span>
+          <div>
+            8574998039
+          </div>
+        </div>
+        <div class="center-align-gap8">
+          <span class="material-symbols-outlined">
+            location_on
+          </span>
+          <div>
+            Gurugram, India
+          </div>
+        </div>
+        <div class="center-align-gap8">
+          <span class="in-class">in</span>
+          <div>
+            <a href="https://www.linkedin.com/in/vivek777" target="_blank">linkedin.com/in/vivek777</a>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- <div class="title-bar">
-    <h6 class="text-center">Projects</h6>
-  </div>
-  <div class="projects">
-  	<div class="row">
-    <div class="col-3">
-       <h6>Github Profile:</h6>
-     </div>
-     <div class="col-9">
-       <h6>
-          <a href="https://github.com/777Vikki/">https://github.com/777Vikki/</a>
-        </h6>
-     </div>
-   </div>
-   <div class="ml-3">
-   	<div class="mt-4">
-   		<h6 class="font-weight-bold">1.Food Shopping Site Layout</h6>
-   	<h6>
-   		<span class="font-weight-bold">Description:</span> A Online food shopping website which allows consumers to directly order food over internet using a web browser.
-   	</h6>
-   	<h6>
-   		<span class="font-weight-bold">Key Technology:</span> Angular 7, Bootstrap.
-   	</h6>
-   	</div>
-   	<div class="mt-4">
-   		<h6 class="font-weight-bold">2.GoogleBook</h6>
-   		<h6>
-   			<span class="font-weight-bold">Description:</span> A webapp which facilitates the user to search any book and sort his search using multiple filters.
-   		</h6>
-   		<h6>
-   		<span class="font-weight-bold">Key Technology:</span> Angular 7, Bootstrap, Google Book Api.
-   	</h6>
-   	</div>
-   	<div class="mt-4">
-   		<h6 class="font-weight-bold">2.Airline Project</h6>
-   		<h6>
-   			<span class="font-weight-bold">Description:</span> A webapp which facilitates the user to book the flights.
-   		</h6>
-   		<h6>
-   		<span class="font-weight-bold">Key Technology:</span> Angular 7, 8, 9, 10, Bootstrap, ngx-bootstrap, 
-   	</h6>
-   	</div>
-   </div>
-  </div> -->
     <div class="title-bar">
-      <h6 class="text-center">TECHNICAL SKILLS</h6>
+      <h6 class="text-center">SUMMARY</h6>
+    </div>
+    <div class="row">
+      <div class="col-12">Experienced Angular Developer with 5+ years of experience and a degree in Computer Science.
+        Expert in Angular with
+        experience in versions above Angular 2. Skilled in HTML, CSS, Bootstrap, Angular Material and integrating
+        Restful
+        API's.</div>
+    </div>
+    <div class="title-bar">
+      <h6 class="text-center">SKILLS</h6>
     </div>
     <div class="technical">
       <div class="row">
         <div class="col-12">
           <h6> TypeScript, JavaScript, HTML, CSS, Bootstrap, Angular2+, Angular Material</h6>
         </div>
-        <!-- <div class="col-9">
-          <h6>
-            TypeScript, JavaScript
-          </h6>
-        </div> -->
       </div>
-      <!-- <div class="row">
-        <div class="col-3">
-          <h6>Font-end:</h6>
-        </div>
-        <div class="col-9">
-          <h6>
-            HTML, CSS, Bootstrap, Angular2+, Angular Material
-          </h6>
-        </div>
-      </div> -->
-      <!-- <div class="row">
-      <div class="col-3">
-        <h6>Back-end:</h6>
-      </div>
-      <div class="col-9">
-        <h6>
-          Node JS
-        </h6>
-      </div>
-    </div> -->
-      <!-- <div class="row">
-      <div class="col-3">
-        <h6>Databases:</h6>
-      </div>
-      <div class="col-9">
-        <h6>
-          MongoDB
-        </h6>
-      </div>
-    </div> -->
-      <!-- <div class="row">
-        <div class="col-3">
-          <h6>Miscellaneous:</h6>
-        </div>
-        <div class="col-9">
-          <h6>
-            Git
-          </h6>
-        </div>
-      </div> -->
       <div class="row">
         <div class="col-2">
           <h6>Hackerrank Profile</h6>
@@ -299,6 +224,26 @@
         </li>
       </ul>
     </div>
+    <!-- <div class="title-bar">
+      <h6 class="text-center">PROJECTS</h6>
+    </div>
+    <div class="ml-3">
+      <div class="mt-4">
+        <div class="flex-col-gap8">
+          <h6 class="font-weight-bold">E-Commerce</h6>
+          <h6>
+            <span class="font-weight-bold">Description:</span> A airline project in which providers of innovative
+            e-commerce and connectivity solutions to airlines and travel suppliers world-wide.
+          </h6>
+        </div>
+        <div class="flex-col-gap8">
+          <h6 class="font-weight-bold">Company-Managed Project</h6>
+          <h6>
+            <span class="font-weight-bold">Description:</span> This project is usefull for 
+          </h6>
+        </div>
+      </div>
+    </div> -->
     <div class="title-bar">
       <h6 class="text-center">ACADEMIC DETAILS</h6>
     </div>
@@ -326,79 +271,26 @@
       </li>
     </ul>
     <div class="title-bar">
-      <h6 class="text-center">CONTACT</h6>
+      <h6 class="text-center">STRENGTHS</h6>
     </div>
-    <div class="custom-row">
-      <div class="center-align-gap12">
-        <span class="material-symbols-outlined">
-          mail
-        </span>
-        <div>
-          vkmm777@gmail.com
-        </div>
-      </div>
-      <div class="center-align-gap12">
-        <span class="material-symbols-outlined">
-          smartphone
-        </span>
-        <div>
-          8574998039
-        </div>
-      </div>
-      <div class="center-align-gap12">
-        <span class="material-symbols-outlined">
-          location_on
-        </span>
-        <div>
-          Gurugram, India
-        </div>
-      </div>
-      <div class="center-align-gap12">
-        <span class="in-class">in</span>
-        <div>
-          <a href="https://www.linkedin.com/in/vivek777" target="_blank">linkedin.com/in/vivek777</a>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="title-bar">
-      <h6 class="text-center">PERSONAL DETAILS</h6>
-    </div>
-    <div class="row">
-      <div class="col-3">
-        <h6>
-          Date of Birth:
-        </h6>
-      </div>
-      <div class="col-9">
-        <h6>
-          7-Oct-1993
-        </h6>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-3">
-        <h6>
-          Languages Known:
-        </h6>
-      </div>
-      <div class="col-9">
-        <h6>
-          English and Hindi
-        </h6>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-3">
-        <h6>
-          Address:
-        </h6>
-      </div>
-      <div class="col-9">
-        <h6>
-          Noida
-        </h6>
-      </div>
-    </div> -->
+    <div class="font-weight-bold">Leadership</div>
+    <ul>
+      <li>
+        <h6>Led team of 5 developers to complete a project ahead of schedule.</h6>
+      </li>
+    </ul>
+    <div class="font-weight-bold">Problem-Solving</div>
+    <ul>
+      <li>
+        <h6>Developed solution to reduce load time of web app by 50%.</h6>
+      </li>
+    </ul>
+    <div class="font-weight-bold">Communication</div>
+    <ul>
+      <li>
+        <h6>Collaborated with cross-functional teams to ensure successful project completion.</h6>
+      </li>
+    </ul>
   </div>
 
 
